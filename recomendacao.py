@@ -140,7 +140,7 @@ def getRecomendacoesUsuarios(base, usuario):
 	return rankings[0:30]
 
 
-def carregaMovieLens(path='/home/kassio/sistema_de_recomendacao/ml-100k'):
+def carregaMovieLens(path='/your-file-path'):
 	filmes = {}
 	for linha in open(path + '/u.item', encoding = "ISO-8859-1"):
 		(id,titulo) = linha.split('|')[0:2]
