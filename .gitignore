@@ -1,1 +1,14 @@
 anotacoes.txt
+Base-de-Dados.txt
+Base-de-Dados-Invertida.txt
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+__pychace__
+
+ml-100k
